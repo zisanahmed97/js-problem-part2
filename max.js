@@ -19,4 +19,4 @@ function getMax(num1 , num2){
 const max1 = getMax(79,91);
 const max2 = getMax(89,57);
 const ultimateMax = getMax(max1,max2);
-console.log("maximum number is:",ultimateMax);
+console.log("maximum number is:",ultimateMax); 
