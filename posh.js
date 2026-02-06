@@ -8,17 +8,17 @@ const phones = [
     {name : ' Pixel', price:50000, camera: '12mp', color: 'Black'},
 ]
 
-function cheapestPhone(phones){
-    let min = phones[0];
+function poshPhone(phones){
+    let max = phones[0];
     for(const phone of phones){
-        if(phone.price < min.price){
-            min = phone;
+        if(phone.price > max.price){
+            max = phone;
         }
 
     }
-    return min;
+    return max;
 
 }
 
-const cheap = cheapestPhone(phones);
-console.log('cheapest phone is ',cheap);
+const posh = poshPhone(phones);
+console.log('posh phone is ',posh);
